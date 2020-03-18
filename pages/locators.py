@@ -7,7 +7,12 @@ class MainPageLocators():
 
 class LoginPageLocators():
     LOGIN_FORM = (By.CSS_SELECTOR, "#login_form")
-    REGISTRATION_FORM = (By.CSS_SELECTOR, "register_form")
+    REGISTRATION_FORM = (By.CSS_SELECTOR, "#register_form")
+
+
+class ProductPageLocators():
+    SUCCESS_MESSAGE = 'YEY'
+    ADD_TO_BUSKET_BTN = (By.CSS_SELECTOR, '#add_to_basket_form > button[type="submit"]')
 
 
 
