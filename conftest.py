@@ -1,7 +1,7 @@
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-
+from faker import Faker
 
 def pytest_addoption(parser):
     parser.addoption('--browser_name', action='store', default='chrome',
